@@ -12,8 +12,18 @@
             HorizontalAlignment="Center" 
             VerticalAlignment="Center">
             <Button
-                Content="Click me"
+                Content="Button1"
                 Background="red"/>
+        </StackPanel>
+
+        <StackPanel
+        Margin="0 100 0 0"
+        Height="50"
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Center">
+            <Button
+            Content="Button2"
+            Background="red"/>
         </StackPanel>
     </Grid>
 </Window>
