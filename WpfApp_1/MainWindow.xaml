@@ -13,7 +13,8 @@
             VerticalAlignment="Center">
             <Button
                 Content="Button1"
-                Background="red"/>
+                Background="red"
+                Click="Button_Click_1"/>
         </StackPanel>
 
         <StackPanel
@@ -23,7 +24,8 @@
         VerticalAlignment="Center">
             <Button
             Content="Button2"
-            Background="red"/>
+            Background="red"
+                Click="Button_Click_2"/>
         </StackPanel>
     </Grid>
 </Window>
