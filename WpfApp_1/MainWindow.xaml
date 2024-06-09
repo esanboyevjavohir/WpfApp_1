@@ -5,7 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize"
+        WindowStyle="ToolWindow"
+        WindowState="Normal"
+        Background="blue"        
+        BorderBrush="red"
+        BorderThickness="10"
+        >
     <Grid>
         <StackPanel
             Height="50"
@@ -37,6 +45,19 @@
             Content="Button3"
             Background="red"
                 Click="Button_Click_3"/>
+        </StackPanel>
+
+        <StackPanel
+            Margin="0 300 0 0"
+            Height="50"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Button Content="Button4"
+                    Background="Green"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Click="Button_Click_4">                
+            </Button>
         </StackPanel>
     </Grid>
 </Window>
