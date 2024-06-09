@@ -30,5 +30,10 @@ namespace WpfApp_1
         {
             MessageBox.Show("Button2 bosildi");
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 3 bosildi");
+        }
     }
 }
