@@ -18,7 +18,19 @@ namespace WpfApp_1
     {
         public MainWindow()
         {
+            Button button = new Button();
+
+            button.Content = "Button5";
+            button.Width = 40;
+            button.Height = 50;
+            button.Click += OnButton5Clicked;
+
             InitializeComponent();
+        }
+
+        private void OnButton5Clicked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button5 was clicked");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
