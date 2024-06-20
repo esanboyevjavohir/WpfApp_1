@@ -25,6 +25,13 @@ namespace WpfApp_1
             button.Height = 50;
             button.Click += OnButton5Clicked;
 
+            Button button1 = new Button();
+
+            button1.Content = "Button6";
+            button1.Width = 40;
+            button1.Height = 50;
+            button1.Click += OnButton6Clicked;
+
             InitializeComponent();
         }
 
@@ -33,6 +40,10 @@ namespace WpfApp_1
             MessageBox.Show("Button5 was clicked");
         }
 
+        private void OnButton6Clicked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button6 was added");
+        }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Button1 bosildi");
